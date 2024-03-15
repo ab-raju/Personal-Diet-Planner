@@ -3,7 +3,7 @@ Developed a Java-based Personal Diet Planner project to assist users in managing
 
  1 Project Overview: 
  
-    The Personal Diet Planner is a Java project designed to assist users in planning their daily dietary intake based on their         personal information such as name, gender, age, height, weight, and physical activity level. The application calculates the        user's Body Mass Index (BMI) and recommends a personalized diet plan tailored to their health goals, whether it be weight          maintenance, weight loss, or weight gain.
+    The Personal Diet Planner is a Java project designed to assist users in planning their daily dietary intake based on their personal information such as name, gender, age, height, weight, and physical activity level. The application calculates the user's Body Mass Index (BMI) and recommends a personalized diet plan tailored to their health goals, whether it be weight maintenance, weight loss, or weight gain.
   
  2 Key Features:
  
@@ -15,7 +15,7 @@ Developed a Java-based Personal Diet Planner project to assist users in managing
     
     Provides tailored weight management recommendations based on BMI, offering suggestions for weight loss, maintenance, or gain.
     
-    Demonstrated adeptness in addressing complex dietary and fitness requirements by implementing algorithms for BMI calculation,      caloric needs estimation, and macronutrient ratio determination.
+    Demonstrated adeptness in addressing complex dietary and fitness requirements by implementing algorithms for BMI calculation,caloric needs estimation, and macronutrient ratio determination.
     
     
 3 Technologies Used:
@@ -54,7 +54,7 @@ Developed a Java-based Personal Diet Planner project to assist users in managing
            
    7 Conclusion:
 
-     The Personal Diet Planner project aims to empower users to make informed decisions about their dietary habits and achieve          their health and fitness goals through personalized diet planning and recommendations. With further development and                enhancements, the application has the potential to become a valuable tool for individuals seeking to improve their overall         health and well-being.
+     The Personal Diet Planner project aims to empower users to make informed decisions about their dietary habits and achieve their health and fitness goals through personalized diet planning and recommendations. With further development and enhancements, the application has the potential to become a valuable tool for individuals seeking to improve their overall health and well-being.
 
    
    
