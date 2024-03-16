@@ -120,11 +120,10 @@ public class PersonalDietPlanner {
         //now we are calculating ratio / percentage for macros
 
         //for carbohydrates
-        //here we are adding +10 for range
         //Here we are dividing by 4 because 1 gm of carbs gives 4 calories
-        double MinCarbs = ((CalorieCount*0.55)/4)+10;
+        double MinCarbs = ((CalorieCount*0.55)/4);
         String Carbs55 = String.format("%.2f", MinCarbs);
-        double MaxCarbs = ((CalorieCount*0.60)/4)+10;
+        double MaxCarbs = ((CalorieCount*0.60)/4);
         String Carbs60 = String.format("%.2f", MaxCarbs);
 
         System.out.println("Carbohydrates (Grams) portion in your diet : "+Carbs55+" - "+Carbs60+" Grams");
@@ -132,10 +131,9 @@ public class PersonalDietPlanner {
 
         //for protein
         //Here we are dividing by 4 because 1 gm of protein gives 4 calories
-        //here i am adding 5 for range
-        double MinProtein = ((CalorieCount*0.25)/4)+5;
+        double MinProtein = ((CalorieCount*0.25)/4);
         String Protein25 = String.format("%.2f", MinProtein);
-        double MaxProtein = ((CalorieCount*0.30)/4)+5;
+        double MaxProtein = ((CalorieCount*0.30)/4);
         String Protein30 = String.format("%.2f", MaxProtein);
 
         System.out.println("Protein (Grams) portion in your diet : "+Protein25+" - "+Protein30+" Grams");
@@ -143,10 +141,9 @@ public class PersonalDietPlanner {
 
         //for fats
         //Here we are dividing by 9 because 1 gm of fat gives 9 calories
-        //here i am adding 2 for range
-        double MinFats = ((CalorieCount*0.15)/9)+2;
+        double MinFats = ((CalorieCount*0.15)/9);
         String Fats15 = String.format("%.2f", MinFats);
-        double MaxFats = ((CalorieCount*0.20)/9)+2;
+        double MaxFats = ((CalorieCount*0.20)/9);
         String Fats20 = String.format("%.2f", MaxFats);
 
         System.out.println("Fats (Grams) portion in your diet : "+Fats15+" - "+Fats20+" Grams");
